@@ -1,0 +1,39 @@
+@use '../../styles/variables' as *;
+
+.feed-shell {
+  padding: $spacing-md 0;
+  .feed-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: $spacing-md;
+    h2 {
+      margin: 0;
+      font-size: 1.25rem;
+      color: $text;
+    }
+    .toggle {
+      background: transparent;
+      border-radius: $radius;
+      padding: 4px;
+      display: flex;
+      gap: 4px;
+      .toggle-btn {
+        padding: 6px 12px;
+        border-radius: $radius;
+        background: transparent;
+        border: 1px solid transparent;
+        cursor: pointer;
+        font-weight: 600;
+        color: $muted;
+        &.active {
+          background: $primary;
+          color: white;
+        }
+      }
+    }
+  }
+  .feed-content {
+    margin-top: $spacing-md;
+  }
+}

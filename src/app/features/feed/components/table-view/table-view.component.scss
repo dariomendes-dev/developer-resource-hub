@@ -1,0 +1,50 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as mix;
+
+.table-wrapper {
+  @include mix.card;
+  overflow: auto;
+}
+
+.resource-table {
+  width: 100%;
+  border-collapse: collapse;
+  min-width: 600px;
+  thead {
+    tr {
+      background: transparent;
+    }
+    th {
+      text-align: left;
+      font-size: 13px;
+      padding: 12px;
+      color: $muted;
+      border-bottom: 1px solid $border;
+    }
+  }
+  tbody {
+    tr {
+      transition: background 0.15s ease;
+      &:hover {
+        background: rgba(59, 130, 246, 0.04);
+      }
+    }
+    td {
+      padding: 12px;
+      border-bottom: 1px solid $border;
+      .title {
+        font-weight: 600;
+      }
+      .actions {
+        display: flex;
+        gap: $spacing-sm;
+      }
+    }
+  }
+  .star {
+    color: $border;
+    &.filled {
+      color: $primary;
+    }
+  }
+}

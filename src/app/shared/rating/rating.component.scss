@@ -1,0 +1,12 @@
+@use '../../styles/variables' as *;
+
+.rating {
+    cursor: pointer;
+  .star {
+    font-size: 16px;
+    color: $border;
+    &.filled {
+      color: $yellow;
+    }
+  }
+}

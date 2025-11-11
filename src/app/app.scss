@@ -1,0 +1,49 @@
+@use './styles/variables' as *;
+@use './styles/main.scss';
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: $card-bg;
+  color: $text;
+  padding: $spacing-md $spacing-lg;
+  border-bottom: 1px solid $border;
+  font-family: $font-family;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0;
+    color: $primary;
+  }
+
+  nav {
+    display: flex;
+    align-items: center;
+    gap: $spacing-md;
+
+    a {
+      color: $text;
+      text-decoration: none;
+      font-weight: 500;
+      padding: 4px 8px;
+      border-radius: $radius;
+      transition: all 0.2s ease-in-out;
+
+      &:hover {
+        color: $primary;
+        background: rgba($primary, 0.08);
+      }
+
+      &.active {
+        color: $primary;
+        font-weight: 600;
+      }
+    }
+  }
+}

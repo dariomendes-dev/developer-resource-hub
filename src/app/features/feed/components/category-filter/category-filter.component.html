@@ -1,0 +1,8 @@
+<div class="category-select">
+  <label for="category">Category:</label>
+  <select id="category" (change)="onChange($event)">
+    @for (category of categories; track category) {
+      <option>{{ category }}</option>
+    }
+  </select>
+</div>

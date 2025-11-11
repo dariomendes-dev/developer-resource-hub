@@ -1,0 +1,33 @@
+<h2>{{ isEdit ? 'Edit Resource' : 'Add Resource' }}</h2>
+
+<form [formGroup]="form" (ngSubmit)="save()">
+  <div>
+    <label>Title</label>
+    <input formControlName="title" />
+    @if(form.controls.title.touched && form.controls.title.invalid){
+    <div>Title is required (min 8 chars)</div>
+    }
+  </div>
+
+  <div>
+    <label>URL</label>
+    <input formControlName="url" />
+    @if(form.controls.url.touched && form.controls.url.invalid) {
+    <div>Provide a valid URL (http/https)</div>
+    }
+  </div>
+
+  <div>
+    <label>Category</label>
+    <select formControlName="category">
+      @for (category of categories; track category) {
+      <option>{{ category }}</option>
+      }
+    </select>
+  </div>
+
+  <button class="btn" type="submit">{{ isEdit ? 'Save' : 'Add' }}</button>
+  @if(showSuccess()){
+  <div class="success-msg">Changes saved successfuly!</div>
+  }
+</form>

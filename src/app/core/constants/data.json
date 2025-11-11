@@ -1,0 +1,492 @@
+[
+    {
+        "id": 1,
+        "title": "Seamless data fetching with httpResource",
+        "url": "https://blog.angular.dev/seamless-data-fetching-with-httpresource-71ba7c4169b9",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 2,
+        "title": "Beginner Guide To Programming",
+        "url": "https://medium.com/swlh/beginner-guide-to-programming-8d5eeec7f4c8",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 3,
+        "title": "10 Essential Frontend Development Best Practices Every Developer Should Know",
+        "url": "https://medium.com/%40gidi2904/10-essential-frontend-development-best-practices-every-developer-should-know-20afdac41042",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 4,
+        "title": "The GOATs of Tech and the Next Programming Language: English",
+        "url": "https://medium.com/@barronqasem/the-goats-of-tech-and-the-next-programming-language-english-0712161e3b47",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 5,
+        "title": "Programming: I Want to Learn But Don’t Know Where to Start",
+        "url": "https://medium.com/swlh/programming-i-want-to-learn-but-don-t-know-where-to-start-2a7ae9fe8442",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 6,
+        "title": "3 Libraries I Use in Most JavaScript Frontend Projects",
+        "url": "https://betterprogramming.pub/3-libraries-i-use-in-most-javascript-frontend-projects-555387be69c",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 7,
+        "title": "Writing Powerful Programming Articles: A Guide for Success",
+        "url": "https://medium.com/data-science/writing-powerful-programming-articles-a-guide-for-success-4739dca9f290",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 8,
+        "title": "Dos and don'ts of programming for beginners",
+        "url": "https://medium.com/@mehmet.tan/dos-and-donts-of-programming-for-beginners-a7084ff2666f",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 9,
+        "title": "Journey of a frontend developer",
+        "url": "https://medium.com/%40ravindermahajan/journey-of-a-frontend-developer-9d09ab36dcd5",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 10,
+        "title": "Why Coding is So Interesting. It's not only about typing",
+        "url": "https://medium.com/@khorshed.subarna/why-coding-is-so-interesting-b4f39891cbc7",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 11,
+        "title": "75+ Hand-Picked Programming Articles Across Medium – (April-June 2023)",
+        "url": "https://betterprogramming.pub/75-handpicked-programming-articles-across-medium-april-june-2023-2e2aecdf877b",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 12,
+        "title": "111 Hand-Picked Programming Articles From Medium (January 2022)",
+        "url": "https://medium.com/better-programming/111-hand-picked-programming-articles-on-medium-january-2022-c35fc29ccf6",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 13,
+        "title": "A Better Frontend Component Structure: Component Trees",
+        "url": "https://betterprogramming.pub/a-better-frontend-component-structure-component-trees-5a99ed6d1ece",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 14,
+        "title": "4 Blogs and Articles Every Developer or Engineer Should Read",
+        "url": "https://medium.com/better-programming/4-blogs-and-articles-every-developer-or-engineer-should-read-603c6319a7ee",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 15,
+        "title": "How I would learn to code in 2024 (if I could start over)",
+        "url": "https://medium.com/@_Smoljames/how-i-would-learn-to-code-in-2024-if-i-could-start-over-b2fd26e5d532",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 16,
+        "title": "Cashing In on Caching as a Frontend Engineer",
+        "url": "https://betterprogramming.pub/cashing-in-on-caching-as-a-frontend-engineer-611a7c57f6b5",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 17,
+        "title": "From Zero to Star Programmer — Ultimate Roadmap",
+        "url": "https://medium.com/noob2star/from-zero-to-star-programmer-ultimate-roadmap-79ba5554d1c3",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 18,
+        "title": "Teaching programming to people who don’t know how to code",
+        "url": "https://medium.com/oke-software/teaching-programming-to-people-who-dont-know-how-to-code-2e2c6c45afd8",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 19,
+        "title": "5 Important Programming Lessons I Wish I Learned Sooner",
+        "url": "https://medium.com/gitconnected/5-important-programming-lessons-i-wish-i-learned-sooner-842269eecfee",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 20,
+        "title": "The 12 Reasons Why Programming Is So Interesting",
+        "url": "https://cherhinchong.medium.com/my-12-reasons-why-programming-is-so-interesting-18481a7528bb",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 21,
+        "title": "The Complete Guide to JavaScript Closures",
+        "url": "https://betterprogramming.pub/the-complete-guide-to-javascript-closures-6a1a8f4b987c",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 22,
+        "title": "10 Habits That Will Make You a Better Programmer",
+        "url": "https://betterprogramming.pub/10-habits-that-will-make-you-a-better-programmer-9a4d6b4cbe8f",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 23,
+        "title": "Mastering Git: Advanced Commands Every Developer Should Know",
+        "url": "https://betterprogramming.pub/mastering-git-advanced-commands-every-developer-should-know-9c7d9f8b3c1b",
+        "category": "DevOps",
+        "rating": 0
+    },
+    {
+        "id": 24,
+        "title": "Why Frontend Development Is So Hard?",
+        "url": "https://medium.com/better-programming/why-frontend-development-is-so-hard-c055bce2fd3a",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 25,
+        "title": "Why You Should Stop Commenting Your Code",
+        "url": "https://medium.com/@fagnerbrack/why-you-should-stop-commenting-your-code-9c8f6b9f5b0",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 26,
+        "title": "Frontend JavaScript Secrets: What Books Won’t Teach You",
+        "url": "https://medium.com/%40jankammerath/frontend-javascript-secrets-what-books-wont-teach-you-5b02c9afcc4a",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 27,
+        "title": "How to Build a REST API With Node.js",
+        "url": "https://medium.com/@theankurtyagi/how-to-build-a-rest-api-with-node-js-37d9a4f8e91b",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 28,
+        "title": "Clean Code Explained: Naming, Functions, and Formatting",
+        "url": "https://medium.com/@tomek.surma/clean-code-explained-naming-functions-and-formatting-2c4a0e1a45f3",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 29,
+        "title": "Staying Relevant as a Frontend Engineer",
+        "url": "https://medium.com/better-programming/stay-relevant-as-a-front-end-engineer-942e24dd70ff",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 30,
+        "title": "The Hidden Power of CSS Variables",
+        "url": "https://betterprogramming.pub/the-hidden-power-of-css-variables-8a64f29df4b0",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 31,
+        "title": "The Future of Micro-Frontends",
+        "url": "https://betterprogramming.pub/the-future-of-micro-frontends-2f527f97d506",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 32,
+        "title": "Python Tips You Probably Don’t Know Yet",
+        "url": "https://medium.com/@markphelps/python-tips-you-probably-dont-know-yet-27b6b3a907b2",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 33,
+        "title": "10 Common JavaScript Mistakes and How to Avoid Them",
+        "url": "https://betterprogramming.pub/10-common-javascript-mistakes-and-how-to-avoid-them-dba4c60e84d2",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 34,
+        "title": "Refactoring Legacy Code Without Losing Your Mind",
+        "url": "https://betterprogramming.pub/refactoring-legacy-code-without-losing-your-mind-b9f6d7a7cb5b",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 35,
+        "title": "How to Structure a Scalable Node.js Project",
+        "url": "https://betterprogramming.pub/how-to-structure-a-scalable-node-js-project-bc32e2e5a3cb",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 36,
+        "title": "The Unnecessary Complexity on the Front End",
+        "url": "https://eduardo-ottaviani.medium.com/the-unnecessary-complexity-on-the-front-end-1632e101dc84b0",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 37,
+        "title": "How I Self Learned Frontend Development in JavaScript, HTML and CSS",
+        "url": "https://owenmurphy2022.medium.com/how-i-self-learned-frontend-development-in-javascript-html-and-css-dc0e63bfe3ff",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 38,
+        "title": "Why You Should Write Fewer Comments and More Tests",
+        "url": "https://medium.com/@developerthoughts/why-you-should-write-fewer-comments-and-more-tests-2d31b5b91e83",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 39,
+        "title": "Stop Overengineering: Build Simpler, Ship Faster",
+        "url": "https://betterprogramming.pub/stop-overengineering-build-simpler-ship-faster-21cfb2d9409f",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 40,
+        "title": "Introduction to Frontend JavaScript Testing",
+        "url": "https://medium.com/%40oldirony/on-frontend-javascript-testing-ddb9ebf19cae",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 41,
+        "title": "My Journey From Frontend Developer to Principal Software Engineer",
+        "url": "https://medium.com/better-programming/my-journey-from-frontend-developer-to-principal-software-engineer-61d86e88cb70",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 42,
+        "title": "Lessons I Learned From Building My First SaaS App",
+        "url": "https://medium.com/gitconnected/lessons-i-learned-from-building-my-first-saas-app-56d0c6a09d6b",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 43,
+        "title": "The Top 5 Code Smells and How to Fix Them",
+        "url": "https://betterprogramming.pub/the-top-5-code-smells-and-how-to-fix-them-b8e77c7b25c4",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 44,
+        "title": "Why Most Front End and Full Stack Interviews Suck",
+        "url": "https://levelup.gitconnected.com/why-most-front-end-and-full-stack-interviews-javascript-typescript-suck-8afce39fd757",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 45,
+        "title": "10 Clean Code Principles Every Developer Should Know",
+        "url": "https://betterprogramming.pub/10-clean-code-principles-every-developer-should-know-8e20b3b7c9af",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 46,
+        "title": "How I Improved My Code Reviews Using ChatGPT",
+        "url": "https://medium.com/gitconnected/how-i-improved-my-code-reviews-using-chatgpt-73b437fce3b2",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 47,
+        "title": "Why Debugging Is the Most Underrated Skill in Programming",
+        "url": "https://medium.com/@techreflections/why-debugging-is-the-most-underrated-skill-in-programming-70a91d3a4c45",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 48,
+        "title": "All My Web Tips and Tools Articles",
+        "url": "https://javascript.plainenglish.io/all-my-web-tips-and-tools-articles-a9eb6350f9c1",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 49,
+        "title": "How I Would Learn Frontend Development Again in 2022 to Become A Pro",
+        "url": "https://javascript.plainenglish.io/how-i-would-learn-frontend-development-again-in-2022-to-become-a-pro-4b0f4e881203",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 50,
+        "title": "The future of frontend development (2025)",
+        "url": "https://dev.to/codewithshahan/the-future-of-frontend-developer-2025-54me",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 51,
+        "title": "The Psychology of Writing Maintainable Code",
+        "url": "https://medium.com/@alexandergreen/the-psychology-of-writing-maintainable-code-8b39d2194a1f",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 52,
+        "title": "Why Learning Data Structures Changed the Way I Code",
+        "url": "https://medium.com/@michaeljohnson/why-learning-data-structures-changed-the-way-i-code-6e60c2b03d2e",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 53,
+        "title": "Frontend is simple",
+        "url": "https://sergioviniciuss.medium.com/frontend-is-simple-952ad2162897",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 54,
+        "title": "The Future of Micro-Frontends",
+        "url": "https://betterprogramming.pub/the-future-of-micro-frontends-2f527f97d506",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 55,
+        "title": "Frontend Development Essentials",
+        "url": "https://medium.com/better-programming/frontend-development-the-essentials-1c1290b43590",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 56,
+        "title": "The Real Reason Your Side Projects Fail",
+        "url": "https://medium.com/@codeandcoffee/the-real-reason-your-side-projects-fail-4a7a27cfd2c6",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 57,
+        "title": "The Future of Frontend Development (2025)",
+        "url": "https://dev.to/codewithshahan/the-future-of-frontend-developer-2025-54me",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 58,
+        "title": "Cashing In on Caching as a Frontend Engineer",
+        "url": "https://betterprogramming.pub/cashing-in-on-caching-as-a-frontend-engineer-611a7c57f6b5",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 59,
+        "title": "The Top 5 Code Smells and How to Fix Them",
+        "url": "https://betterprogramming.pub/the-top-5-code-smells-and-how-to-fix-them-b8e77c7b25c4",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 60,
+        "title": "10 Habits That Will Make You a Better Programmer",
+        "url": "https://betterprogramming.pub/10-habits-that-will-make-you-a-better-programmer-9a4d6b4cbe8f",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 61,
+        "title": "Frontend JavaScript Secrets: What Books Won’t Teach You",
+        "url": "https://medium.com/%40jankammerath/frontend-javascript-secrets-what-books-wont-teach-you-5b02c9afcc4a",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 62,
+        "title": "Refactoring Legacy Code Without Losing Your Mind",
+        "url": "https://betterprogramming.pub/refactoring-legacy-code-without-losing-your-mind-b9f6d7a7cb5b",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 63,
+        "title": "Frontend Development Tips for 2024",
+        "url": "https://medium.com/frontend-development-tips/frontend-development-trends-2024-1a2b3c4d",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 64,
+        "title": "The Hidden Power of CSS Variables",
+        "url": "https://betterprogramming.pub/the-hidden-power-of-css-variables-8a64f29df4b0",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 65,
+        "title": "Mastering Git: Advanced Commands Every Developer Should Know",
+        "url": "https://betterprogramming.pub/mastering-git-advanced-commands-every-developer-should-know-9c7d9f8b3c1b",
+        "category": "DevOps",
+        "rating": 0
+    },
+    {
+        "id": 66,
+        "title": "The Complete Guide to JavaScript Closures",
+        "url": "https://betterprogramming.pub/the-complete-guide-to-javascript-closures-6a1a8f4b987c",
+        "category": "Frontend",
+        "rating": 0
+    },
+    {
+        "id": 67,
+        "title": "How to Structure a Scalable Node.js Project",
+        "url": "https://betterprogramming.pub/how-to-structure-a-scalable-node-js-project-bc32e2e5a3cb",
+        "category": "Backend",
+        "rating": 0
+    },
+    {
+        "id": 68,
+        "title": "The Psychology of Writing Maintainable Code",
+        "url": "https://medium.com/@alexandergreen/the-psychology-of-writing-maintainable-code-8b39d2194a1f",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 69,
+        "title": "How to Become a 10x Developer — The Myth and Reality",
+        "url": "https://medium.com/@thomasedison/how-to-become-a-10x-developer-the-myth-and-reality-4a2b9c6d3b72",
+        "category": "General",
+        "rating": 0
+    },
+    {
+        "id": 70,
+        "title": "Frontend Performance Optimization Checklist",
+        "url": "https://betterprogramming.pub/frontend-performance-optimization-checklist-2024-9a8d7f5b6c2d",
+        "category": "Frontend",
+        "rating": 0
+    }
+]

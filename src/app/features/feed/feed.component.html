@@ -1,0 +1,31 @@
+<section class="feed-shell">
+  <category-filter
+    [categories]="categories"
+    (changeCategory)="resourceService.setFilter($event)"
+  ></category-filter>
+  @if(filtered().length === 0){
+  <div>No resources found.</div>
+  }
+  <div class="feed-header">
+    <h2>Resources</h2>
+    <div class="toggle">
+      <button class="toggle-btn" [class.active]="view === 'cards'" (click)="view = 'cards'">
+        Cards
+      </button>
+      <button class="toggle-btn" [class.active]="view === 'table'" (click)="view = 'table'">
+        Table
+      </button>
+    </div>
+  </div>
+
+  <div class="feed-content">
+    <app-card-view
+      *ngIf="view === 'cards'"
+      [resources]="resourceService.filteredResources()"
+    ></app-card-view>
+    <app-table-view
+      *ngIf="view === 'table'"
+      [resources]="resourceService.filteredResources()"
+    ></app-table-view>
+  </div>
+</section>

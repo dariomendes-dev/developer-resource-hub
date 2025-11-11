@@ -1,0 +1,23 @@
+<div class="card-grid">
+  @if(resources.length){ @for(resource of resources; track resource){
+  <article class="resource-card">
+    <div class="card-body">
+      <div class="card-title">{{ resource.title }}</div>
+      <div class="card-meta">
+        <span class="pill">{{ resource.category }}</span>
+        <app-rating [rating]="resource.rating" (rate)="onRate(resource.id, $event)"></app-rating>
+      </div>
+      <p class="card-url">
+        <a [href]="resource.url" target="_blank">{{ resource.url }}</a>
+      </p>
+    </div>
+    <div class="card-actions">
+      <button class="btn red" (click)="onDelete(resource.id)">Delete</button>
+      <a class="btn secondary"[routerLink]="['/resource-manage', resource.id]">Edit</a>
+      <a class="btn primary" [href]="resource.url" target="_blank">Open</a>
+    </div>
+  </article>
+  } } @else {
+  <div>No resources to show.</div>
+  }
+</div>

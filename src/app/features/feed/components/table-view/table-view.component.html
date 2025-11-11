@@ -1,0 +1,38 @@
+<div class="table-wrapper">
+  @if(resources.length){
+  <table class="resource-table">
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Category</th>
+        <th>Rating</th>
+        <th>URL</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+    <tbody>
+      @for(resource of resources; track resource){
+      <tr>
+        <td class="title">{{ resource.title }}</td>
+        <td>{{ resource.category }}</td>
+        <td>
+          <app-rating [rating]="resource.rating" (rate)="onRate(resource.id, $event)"></app-rating>
+        </td>
+        <td>
+          <a [href]="resource.url" target="_blank">{{ resource.url }}</a>
+        </td>
+        <td>
+          <div class="actions">
+            <a class="btn" [href]="resource.url" target="_blank">Open</a>
+            <a class="btn secondary" [routerLink]="['resource-manage', resource.id]">Edit</a
+            ><button class="btn red" (click)="onDelete(resource.id)">Delete</button>
+          </div>
+        </td>
+      </tr>
+      }
+    </tbody>
+  </table>
+  } @else {
+  <div>No resources to show.</div>
+  }
+</div>

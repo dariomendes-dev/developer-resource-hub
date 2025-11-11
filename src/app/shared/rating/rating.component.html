@@ -1,0 +1,5 @@
+<span class="rating" aria-hidden="true">
+  @for(i of ratings; let idx = $index; track i){
+  <span class="star" (click)="emit(i)" [class.filled]="idx + 1 <= rating">★</span>
+  }
+</span>

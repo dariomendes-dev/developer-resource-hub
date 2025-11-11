@@ -1,0 +1,63 @@
+@use '../../../../styles/variables' as *;
+@use '../../../../styles/mixins' as mix;
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(390px, 1fr));
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: $spacing-md;
+}
+
+.resource-card {
+  @include mix.card;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 360px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  .card-body {
+    margin-bottom: $spacing-sm;
+  }
+
+  .card-title {
+    font-weight: 700;
+    font-size: 16px;
+    color: $text;
+    margin-bottom: $spacing-sm;
+  }
+
+  .card-meta {
+    display: flex;
+    gap: $spacing-sm;
+    align-items: center;
+    margin-bottom: $spacing-sm;
+    .pill {
+      background: $secondary;
+      color: #fff;
+      padding: 4px 8px;
+      border-radius: 12px;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  }
+
+  .card-url {
+    font-size: 13px;
+    color: $muted;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .card-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: $spacing-sm;
+  }
+}

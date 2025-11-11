@@ -1,0 +1,41 @@
+@use 'variables' as *;
+
+:root {
+  font-family: $font-family;
+  color: $text;
+  background-color: $bg-light;
+}
+
+body {
+  margin: 12px;
+  font-family: inherit;
+  background: $bg-light;
+}
+
+.app-shell {
+  padding: $spacing-lg;
+}
+
+.btn {
+  padding: 4px 10px;
+  border-radius: 8px;
+  background: $primary;
+  color: white;
+  border: 0px;
+  text-decoration: none;
+  font-weight: 600;
+  appearance: none;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  appearance: none;
+  &:hover {
+    opacity: 0.9;
+  }
+  &.secondary {
+    background: $secondary;
+  }
+  &.red {
+    background: $red;
+  }
+}

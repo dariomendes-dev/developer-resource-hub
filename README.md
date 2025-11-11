@@ -2,7 +2,7 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.3.9.
 
-This is a simple Angular project that display a list of developer learning resources. Users can filter by category type, add, edit and delete resources. There is a table and cards view.
+This is a simple Angular project that displays a list of developer learning resources. Users can filter by category type, add, edit and delete resources. There is a table and cards view.
 
 ## Technologies Used
 

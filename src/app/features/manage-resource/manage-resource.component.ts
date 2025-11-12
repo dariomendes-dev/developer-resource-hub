@@ -2,7 +2,7 @@ import { Component, ChangeDetectionStrategy, inject, OnInit, signal } from '@ang
 import { ReactiveFormsModule, FormBuilder, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { ResourceService } from '../../core/services/resource.service';
-import { ALL_CATEGORIES, Resource } from '../../core/models/resource';
+import { BASE_CATEGORIES, Resource } from '../../core/models/resource';
 import { ActivatedRoute, Router } from '@angular/router';
 
 type ResourceForm = Omit<Resource, 'id' | 'rating'>;
@@ -21,7 +21,7 @@ export class ManageResourceComponent implements OnInit {
   private route = inject(ActivatedRoute);
   private router = inject(Router);
 
-  categories = ALL_CATEGORIES;
+  categories = BASE_CATEGORIES;
   isEdit = false;
   showSuccess = signal(false);
   currentId?: number;

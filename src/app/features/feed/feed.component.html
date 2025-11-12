@@ -1,6 +1,6 @@
 <section class="feed-shell">
   <category-filter
-    [categories]="categories"
+    [categories]="resourceService.availableCategories()"
     (changeCategory)="resourceService.setFilter($event)"
   ></category-filter>
   @if(filtered().length === 0){
@@ -19,13 +19,31 @@
   </div>
 
   <div class="feed-content">
-    <app-card-view
-      *ngIf="view === 'cards'"
-      [resources]="resourceService.filteredResources()"
-    ></app-card-view>
-    <app-table-view
-      *ngIf="view === 'table'"
-      [resources]="resourceService.filteredResources()"
-    ></app-table-view>
+    @if(view === 'cards'){
+    <app-card-view [resources]="pagedResources()"></app-card-view>
+    } @if(view === 'table'){
+    <app-table-view [resources]="pagedResources()"></app-table-view>
+    }
   </div>
+
+  @if(totalPages() > 1) {
+  <div class="pagination">
+    <div class="page-size-select">
+      <label for="page-size">Resources per page:</label>
+      <select id="page-size" (change)="onPageSize($event)">
+        <option [value]="10">10</option>
+        <option [value]="20">20</option>
+        <option [value]="30">30</option>
+     </select>
+    </div>
+
+    <button class="btn secondary" (click)="setPage(currentPage() - 1)" [disabled]="currentPage() === 1">Prev</button>
+
+    <span>Page {{ currentPage() }} / {{ totalPages() }}</span>
+
+    <button class="btn secondary" (click)="setPage(currentPage() + 1)" [disabled]="currentPage() === totalPages()">
+      Next
+    </button>
+  </div>
+  }
 </section>

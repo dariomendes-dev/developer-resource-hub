@@ -36,4 +36,47 @@
   .feed-content {
     margin-top: $spacing-md;
   }
+
+  .pagination {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: $spacing-md;
+
+    button {
+      &:disabled {
+        opacity: 0.5;
+        cursor: default;
+      }
+    }
+  }
+
+  .page-size-select {
+    padding-right: $spacing-md;
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+    font-family: $font-family;
+    color: $text;
+
+    label {
+      font-weight: 500;
+    }
+
+    select {
+      padding: 4px 8px;
+      border: 1px solid $border;
+      border-radius: $radius;
+      background: $card-bg;
+      font-size: 0.9rem;
+      cursor: pointer;
+      transition: border-color 0.2s ease;
+
+      &:focus {
+        outline: none;
+        border-color: $primary;
+      }
+    }
+  }
 }

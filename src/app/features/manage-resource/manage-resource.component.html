@@ -21,7 +21,7 @@
     <label>Category</label>
     <select formControlName="category">
       @for (category of categories; track category) {
-      <option>{{ category }}</option>
+      <option [value]="category">{{ category }}</option>
       }
     </select>
   </div>

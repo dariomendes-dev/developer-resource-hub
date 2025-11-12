@@ -8,4 +8,4 @@ export interface Resource {
   rating: number;
 }
 
-export const ALL_CATEGORIES: Category[] = ['Frontend','Backend','DevOps','General'];
+export const BASE_CATEGORIES: Category[] = ['Frontend','Backend','DevOps','General'];

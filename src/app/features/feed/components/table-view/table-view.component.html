@@ -11,7 +11,7 @@
       </tr>
     </thead>
     <tbody>
-      @for(resource of resources; track resource){
+      @for(resource of resources; track resource.id){
       <tr>
         <td class="title">{{ resource.title }}</td>
         <td>{{ resource.category }}</td>

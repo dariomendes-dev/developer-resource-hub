@@ -1,5 +1,5 @@
 <div class="card-grid">
-  @if(resources.length){ @for(resource of resources; track resource){
+  @if(resources.length){ @for(resource of resources; track resource.id){
   <article class="resource-card">
     <div class="card-body">
       <div class="card-title">{{ resource.title }}</div>

@@ -8,12 +8,13 @@ function uid(): number {
 
 @Injectable({ providedIn: 'root' })
 export class ResourceService {
-  private _resources = signal<Resource[]>([]);
   useLocalStorage: boolean = false;
-
+  
+  private _resources = signal<Resource[]>([]);
   readonly resources = this._resources;
-  filterCategory = signal<string>('All');
 
+  availableCategories = computed(() => ['All', ...new Set(this._resources().map((resource) => resource.category)),]);
+  filterCategory = signal<string>('All');
   filteredResources = computed(() => {
     const category = this.filterCategory();
     const arr = this._resources();
@@ -21,7 +22,7 @@ export class ResourceService {
   });
 
   constructor() {
-    let initial: Resource[] = data as Resource[];
+    let initial: Resource[] = data;
 
     if (this.useLocalStorage) {
       try {
@@ -44,7 +45,17 @@ export class ResourceService {
         } catch {}
       });
     }
+
+    //check if the selected category does not exist anymore and sets category to 'All'
+    effect(() => {
+      const category = this.filterCategory();
+      const available = this.availableCategories();
+      if (category !== 'All' && !available.includes(category)) {
+        this.filterCategory.set('All');
+      }
+    });
   }
+
   //make a new resource, append it to the array, update the signal, return its id
   add(resource: Omit<Resource, 'id' | 'rating'>) {
     const item: Resource = { ...resource, id: uid(), rating: 0 };
